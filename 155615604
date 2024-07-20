@@ -109,9 +109,16 @@ TeleporTab:AddButton({
 })
 
 TeleporTab:AddButton({
-	Name = "Generate Car Place",
+	Name = "Teleport to Generate Car Place",
 	Callback = function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-490.847839, 53.9683342, 1795.66162, -0.845191419, 5.25890869e-08, -0.534463704, 3.34021273e-08, 1, 4.55744598e-08, 0.534463704, 2.06669188e-08, -0.845191419)
+  	end    
+})
+
+TeleporTab:AddButton({
+	Name = "Teleport to Criminals Spawn",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-955.686401, 94.1287613, 2055.65454, -0.0139798503, 0, -0.999902248, 0, 1, 0, 0.999902248, 0, -0.0139798503)
   	end    
 })
 end
